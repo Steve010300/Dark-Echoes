@@ -1,0 +1,81 @@
+html {
+    background-color: rgb(10, 9, 9);
+    color: aliceblue;
+
+}
+
+body {
+    padding: 1rem;
+
+}
+
+main {
+    display: grid;
+    gap: 1ch;
+}
+
+@media (width >= 500px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.episodes h2 {
+    font-size: 2rem;
+}
+
+
+.episodes ul {
+    display: grid;
+    gap: 1ch;
+    list-style-type: none;
+    padding: 0.25rem;
+    
+}
+
+.episodes li {
+    font-weight: 500;
+    font-size: 25px;
+    padding: 1ch;
+    border-bottom: 0.25px solid rgb(44, 44, 44);
+}
+
+.episodes li:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+.description h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description button {
+    width: 100%;
+    font-size: 1rem;
+    border-radius: .25rem;
+    
+}
+
+.description button:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.describe {
+    font-size: 22px;
+}
+
+.select {
+    font-size: 25px;
+}
+
+button {
+    padding: 8px;
+    font-weight: 600;
+}
